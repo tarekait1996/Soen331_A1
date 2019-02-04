@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 FEB 2019 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 FEB 2019 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,8 +210,7 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip49
 \thm@headsep=\skip50
 \dth@everypar=\toks32
-)
-No file efsm.aux.
+) (./efsm.aux)
 \openout1 = `efsm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -226,6 +225,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -336,6 +336,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (55.00195pt too wide) in paragraph at lines 20--20
+ [][] 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
@@ -345,17 +350,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--35
 
  []
 
-
-LaTeX Warning: Reference `fig:metro-fig' on page 1 undefined on input line 36.
-
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package epstopdf Info: Source file: <./figures/eps/metro.eps>
-(epstopdf)                    date: 2012-11-23 11:55:44
+(epstopdf)                    date: 2019-02-04 15:50:11
 (epstopdf)                    size: 123037 bytes
 (epstopdf)             Output file: <./figures/eps/metro-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-04 15:22:06
+(epstopdf)                    date: 2019-02-04 15:50:11
 (epstopdf)                    size: 31680 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/eps/metro-eps-co
 nverted-to.pdf ./figures/eps/metro.eps>
@@ -368,29 +370,23 @@ Package pdftex.def Info: ./figures/eps/metro-eps-converted-to.pdf  used on inpu
 t line 44.
 (pdftex.def)             Requested size: 375.80544pt x 217.56815pt.
 
-[2 <./figures/eps/metro-eps-converted-to.pdf>] (./efsm.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[2 <./figures/eps/metro-eps-converted-to.pdf>] (./efsm.aux) ) 
 Here is how much of TeX's memory you used:
- 4405 strings out of 492649
- 60757 string characters out of 6129622
- 133492 words of memory out of 5000000
- 8221 multiletter control sequences out of 15000+600000
- 12096 words of font info for 47 fonts, out of 8000000 for 9000
+ 4406 strings out of 492649
+ 60760 string characters out of 6129622
+ 133515 words of memory out of 5000000
+ 8220 multiletter control sequences out of 15000+600000
+ 11789 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,32p,271b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on efsm.pdf (2 pages, 104840 bytes).
+ 41i,12n,32p,271b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on efsm.pdf (2 pages, 105046 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
