@@ -73,4 +73,7 @@ ancestor(A,B):- transition(A,X,_,_), ancestor(X,B,_,_).
 
 get_all_transitions(L):- findall((A, B, C, D, E), (transition(A,B,C,D,E), \+ transition(A,B,C,null,D),\+ transition(A,B,C,D,null)), L).
 
+get_all_transitions(L,S):-findall((A, B, C, D, E), (state(A), state(B), superstate(A,S), transition(A,B,C,D,E)), L).
+
+
 %% eof.
