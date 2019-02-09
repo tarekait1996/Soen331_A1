@@ -68,9 +68,9 @@ transition(override, exitConfigure, null, completed, null).
 %%
 %% =============================================================================
 
-ancestor(A,B):= transition(A,B,_,_).
-ancestor(A,B):= transition(A,X,_,_), ancestor(X,B,_,_).
+ancestor(A,B):- transition(A,B,_,_).
+ancestor(A,B):- transition(A,X,_,_), ancestor(X,B,_,_).
 
-get_all_transitions(X):= \+ transition(A,B,?,?), [].
+get_all_transitions(L):- findall((A, B, C, D, E), (transition(A,B,C,D,E), \+ transition(A,B,C,null,D),\+ transition(A,B,C,D,null)), L).
 
 %% eof.
