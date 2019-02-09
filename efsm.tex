@@ -11,7 +11,8 @@
 
 \title{SOEN331: Introduction to Formal Methods\\for Software Engineering\\
 Assignment 1 on extended finite state machines}
-\author{Tarek Ait Hamouda (40044119), Abhijit Gupta (), Ethel Narra Pangan (40061530)}
+\author{Tarek Ait Hamouda (40044119), Abhijit Gupta (40066502),\\ 
+Ethel Narra Pangan (40061530)}
 \date{\today}
 
 \begin{document}
@@ -21,19 +22,38 @@ Assignment 1 on extended finite state machines}
 
 \section{Room temperature control formal specification}
 
-\noindent The EFSM of the metro passageway is the tuple $S = (Q, \Sigma_1, \Sigma_2, q_0, V, \Lambda)$, where\\
-
-\noindent $Q = \{idle, configuration\}$\\
-\noindent $\Sigma_1 = \{request~entry, pass\}$\\
-\noindent $\Sigma_2 = \{lock, unlock, beep\}$\\
-\noindent $q_0: locked$\\
-\noindent $V: ticket = \{valid, invalid\}$\\
+\noindent The EFSM of the room temperature control is the tuple $S = (Q, \Sigma_1, \Sigma_2, q_0, V, \Lambda)$, where
+\noindent $Q = \{idle, warm up, configuration\}$\\
+\noindent $\Sigma_1 = \{interrupt, after(3 min), after(2 s), cancel\}$\\
+\noindent $\Sigma_2 = \{fan~on, fan~off, furnace~on, furnace~off, prolonged~beep~sound\}$\\
+\noindent $q_0: idle$\\
+\noindent $V: \{C, T, D, T.F\}$\\
 \noindent $\Lambda$: Transition specifications\\
-\indent 1. $\rightarrow locked$\\
-\indent 2. $locked \xrightarrow {\text { request entry [ticket is valid] / (unlock ; beep)}} unlocked$\\
-\indent 3. $unlocked \xrightarrow {\text { pass / lock}} locked$\\
+\indent 1. $\rightarrow idle$\\
+\indent 2. $idle \xrightarrow {\text { shut off/ (fan off ; furnace off)}} off$\\
+\indent 3. $idle \xrightarrow {\text { [C $\geq$ D]}} idle$\\
+\indent 4. $idle \xrightarrow {\text { [C $\leq$ D-1] / (fan off ; furnace on)}} warm~up$\\
+\indent 5. $warm~up \xrightarrow {\text { [T.F $<$ D+1] }} warm~up$\\
+\indent 6. $warm~up \xrightarrow {\text { [T.F $\geq$ D+1] }} idle$\\
+\indent 7. $warm~up \xrightarrow {\text { interrupt/furnace off }} configuration$\\
 
-\noindent The UML state diagram is shown in Figure~\ref{fig:metro-fig}.
+\noindent The EFSM of the configuration is the tuple $S = (Q, \Sigma_1, \Sigma_2, q_0, V, \Lambda)$, where\\
+\noindent $Q = \{input, add, override, exit\}$\\
+\noindent $\Sigma_1 = \{after(1 min)\}$\\
+% \noindent $\Sigma_2 = \{, unlock, beep\}$\\
+\noindent $q_0: input$\\
+\noindent $V: triplet$\\
+\noindent $\Lambda$: Transition specifications\\
+\indent 1. $\rightarrow input$\\
+\indent 2. $input \xrightarrow {\text { [triplet does not exist]}} add$\\
+\indent 3. $input \xrightarrow {\text { [triplet exist]}} override$\\
+\indent 4. $input \xrightarrow {\text { after 1 inactive min}} exit$\\
+\indent 5. $add \xrightarrow {\text { [else]}} input$\\
+\indent 6. $add \xrightarrow {\text { [completed]}} exit$\\
+\indent 7. $override \xrightarrow {\text { [else]}} input$\\
+\indent 8. $override \xrightarrow {\text { [completed]}} exit$\\
+
+\noindent The UML state diagram is shown in Figure~\ref{fig:temperature-fig}.
 
 \newpage
 
@@ -41,9 +61,9 @@ Assignment 1 on extended finite state machines}
 
 \begin{figure}[h!]
 	\centering
-		\includegraphics[width=0.8\textwidth]{./figures/eps/metro.eps}
-		  \caption{Metro.}
-  \label{fig:metro-fig}
+		\includegraphics[width=0.8\textwidth]{./figures/eps/A1.eps}
+		  \caption{temperature.}
+  \label{fig:temperature-fig}
 \end{figure}
 
 \end{spacing}
