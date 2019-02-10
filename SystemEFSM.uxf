@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>4</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>60</x>
-      <y>260</y>
-      <w>68</w>
-      <h>28</h>
+      <x>135</x>
+      <y>234</y>
+      <w>153</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>idle</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>296</x>
-      <y>340</y>
-      <w>60</w>
-      <h>28</h>
+      <x>666</x>
+      <y>414</y>
+      <w>135</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>warming up</panel_attributes>
     <additional_attributes/>
@@ -26,24 +26,22 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>124</x>
-      <y>260</y>
-      <w>112</w>
-      <h>24</h>
+      <x>279</x>
+      <y>234</y>
+      <w>252</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-every 2 min
-
-[inputList not empty]</panel_attributes>
+after(2min)[inputList not empty]</panel_attributes>
     <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>332</x>
-      <y>276</y>
-      <w>64</w>
-      <h>72</h>
+      <x>747</x>
+      <y>270</y>
+      <w>144</w>
+      <h>162</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 [C &lt;= D-1]
@@ -53,10 +51,10 @@ every 2 min
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>228</x>
-      <y>252</y>
-      <w>76</w>
-      <h>36</h>
+      <x>513</x>
+      <y>216</y>
+      <w>171</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>C:= current temperature
 T:= current time
@@ -66,10 +64,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>268</y>
-      <w>36</w>
-      <h>12</h>
+      <x>675</x>
+      <y>252</y>
+      <w>81</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
@@ -77,10 +75,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
-      <y>228</y>
-      <w>264</w>
-      <h>44</h>
+      <x>180</x>
+      <y>162</y>
+      <w>594</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 
@@ -91,10 +89,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>40</x>
-      <y>264</y>
-      <w>8</w>
-      <h>8</h>
+      <x>90</x>
+      <y>243</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -102,10 +100,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>44</x>
-      <y>264</y>
-      <w>24</w>
-      <h>12</h>
+      <x>99</x>
+      <y>243</y>
+      <w>54</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
@@ -113,10 +111,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>40</x>
-      <y>312</y>
-      <w>8</w>
-      <h>8</h>
+      <x>90</x>
+      <y>351</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -124,10 +122,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>44</x>
-      <y>284</y>
-      <w>60</w>
-      <h>40</h>
+      <x>99</x>
+      <y>288</y>
+      <w>135</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 shut off
@@ -138,10 +136,10 @@ fan off</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>408</y>
-      <w>76</w>
-      <h>12</h>
+      <x>675</x>
+      <y>567</y>
+      <w>171</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>Tf := temp within furnace</panel_attributes>
     <additional_attributes/>
@@ -149,22 +147,22 @@ fan off</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>332</x>
-      <y>364</y>
-      <w>44</w>
-      <h>52</h>
+      <x>747</x>
+      <y>468</y>
+      <w>90</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-every 3 min</panel_attributes>
+after(3min)</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>332</x>
-      <y>416</y>
-      <w>12</w>
-      <h>44</h>
+      <x>747</x>
+      <y>585</y>
+      <w>27</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
@@ -172,10 +170,10 @@ every 3 min</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>328</x>
-      <y>452</y>
-      <w>16</w>
-      <h>16</h>
+      <x>738</x>
+      <y>666</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -183,10 +181,10 @@ every 3 min</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>344</y>
-      <w>84</w>
-      <h>124</h>
+      <x>567</x>
+      <y>423</y>
+      <w>189</w>
+      <h>279</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 [Tf &lt; D+1]</panel_attributes>
@@ -195,10 +193,10 @@ every 3 min</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>112</x>
-      <y>284</y>
-      <w>232</w>
-      <h>200</h>
+      <x>252</x>
+      <y>288</y>
+      <w>522</w>
+      <h>450</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 [Tf &gt;= D+1]/ fan on; furnace off; click sound</panel_attributes>
@@ -207,10 +205,10 @@ every 3 min</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>444</x>
-      <y>336</y>
-      <w>48</w>
-      <h>24</h>
+      <x>999</x>
+      <y>405</y>
+      <w>108</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>configuration
 symbol=substate</panel_attributes>
@@ -219,10 +217,10 @@ symbol=substate</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>340</y>
-      <w>104</w>
-      <h>16</h>
+      <x>783</x>
+      <y>414</y>
+      <w>234</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 interrupt / furnace off</panel_attributes>
@@ -231,10 +229,10 @@ interrupt / furnace off</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>224</y>
-      <w>88</w>
-      <h>120</h>
+      <x>1044</x>
+      <y>153</y>
+      <w>198</w>
+      <h>270</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 cancel
@@ -244,10 +242,10 @@ cancel
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>460</x>
-      <y>224</y>
-      <w>8</w>
-      <h>8</h>
+      <x>1035</x>
+      <y>153</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -255,10 +253,10 @@ cancel
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>428</x>
-      <y>228</y>
-      <w>44</w>
-      <h>120</h>
+      <x>963</x>
+      <y>162</y>
+      <w>99</w>
+      <h>270</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 
@@ -270,10 +268,10 @@ inactive</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>460</x>
-      <y>204</y>
-      <w>152</w>
-      <h>152</h>
+      <x>1035</x>
+      <y>108</y>
+      <w>342</w>
+      <h>342</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 completed
@@ -283,10 +281,10 @@ completed
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>68</x>
-      <y>224</y>
-      <w>400</w>
-      <h>44</h>
+      <x>153</x>
+      <y>153</y>
+      <w>900</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>980.0;10.0;10.0;10.0;10.0;90.0</additional_attributes>
@@ -295,20 +293,20 @@ completed
     <id>UMLFrame</id>
     <coordinates>
       <x>0</x>
-      <y>156</y>
-      <w>628</w>
-      <h>380</h>
+      <y>0</y>
+      <w>1413</w>
+      <h>855</h>
     </coordinates>
-    <panel_attributes>System for Assignment 1</panel_attributes>
+    <panel_attributes>Room Temperature Control System</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>328</x>
-      <y>264</y>
-      <w>16</w>
-      <h>16</h>
+      <x>738</x>
+      <y>243</y>
+      <w>36</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -316,13 +314,13 @@ completed
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>284</y>
-      <w>372</w>
-      <h>224</h>
+      <x>225</x>
+      <y>288</y>
+      <w>837</w>
+      <h>504</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-setup [inputList empty]</panel_attributes>
+setup </panel_attributes>
     <additional_attributes>10.0;10.0;10.0;540.0;910.0;540.0;910.0;190.0</additional_attributes>
   </element>
 </diagram>
