@@ -33,6 +33,7 @@ state(override).
 
 %%Initial states
 initial_state(idle, null).
+initial_state('warming up', null).
 initial_state(configuration, input).
 
 %%Superstates
@@ -45,22 +46,21 @@ superstates(configuration, override).
 transition(idle,idle,'every two minutes','current is greater or equal than desired temperature', null).
 transition(idle, 'warming up','every two minutes', 'current is less or equal desired temperature minus 1', 'furnace on; fan off' ).
 transition(idle, exit, 'shut off', null, null).
+transition(idle, configuration, 'setup', null, null).
 
 transition('warming up', 'warming up', 'every three minutes', 'furnace temperature less than desired temperatue plus 1', null).
-transition('warming up', idle, null, 'furnace temperature greater or equal than desired temp plus 1', 'fan on; click sound produced').
-transition('warming up', configuration, interrupt, null, 'furnace on').
+transition('warming up', idle, null, 'furnace temperature greater or equal than desired temp plus 1', 'fan on; furnace off; click sound produced').
+transition('warming up', configuration, interrupt, null, 'furnace off').
 
 transition(configuration, idle, cancel, null, 'prolonged beep sound').
-transition(configuration, idle, null, null, null).
+transition(configuration, idle, 'after 1 minute inactive', null, null).
+transition(configuration, idle, complete, null, 'double beep sound').
 
 %%Transitions within active state
-transition(input, add, null, 'tiplet does not exist in list', null).
-transition(input, override, null, 'tiplet does exist in list', null).
-transition(add, input, null, null, null).
-transition(override, input, null, null, null).
-transition(input, exitConfigure, 'after one minute of inactivity', null).
-transition(add, exitConfigure, null, completed, null ).
-transition(override, exitConfigure, null, completed, null).
+transition(input, add, register, 'tiplet does not exist in list', 'add it to list').
+transition(input, override, register, 'tiplet does exist in list', 'override triplet inside list').
+transition(add, input, repeat, null, null).
+transition(override, input, repeat, null, null).
 
 %% =============================================================================
 %%
