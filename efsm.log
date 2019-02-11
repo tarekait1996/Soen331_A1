@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 FEB 2019 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  11 FEB 2019 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -213,18 +213,18 @@ Package: amsthm 2017/10/31 v2.20.4
 ) (./efsm.aux)
 \openout1 = `efsm.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -326,70 +326,115 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count118
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (55.00195pt too wide) in paragraph at lines 20--20
- [][] 
+Overfull \hbox (46.82663pt too wide) in paragraph at lines 25--44
+\OT1/cmr/m/n/12 ^^F[] = \OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 shutoff; setup; inte
+rrupt; after\OT1/cmr/m/n/12 (3\OML/cmm/m/it/12 min\OT1/cmr/m/n/12 )\OML/cmm/m/i
+t/12 ; after\OT1/cmr/m/n/12 (2\OML/cmm/m/it/12 min\OT1/cmr/m/n/12 )\OML/cmm/m/i
+t/12 ; after []\OT1/cmr/m/n/12 1 []\OML/cmm/m/it/12 min []inactive; cancel; com
+pleted\OMS/cmsy/m/n/12 g$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 25--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--35
+Underfull \hbox (badness 10000) in paragraph at lines 25--44
 
  []
 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package epstopdf Info: Source file: <./figures/eps/metro.eps>
-(epstopdf)                    date: 2019-02-04 15:50:11
-(epstopdf)                    size: 123037 bytes
-(epstopdf)             Output file: <./figures/eps/metro-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-02-04 15:50:11
-(epstopdf)                    size: 31680 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/eps/metro-eps-co
-nverted-to.pdf ./figures/eps/metro.eps>
-(epstopdf)             \includegraphics on input line 44.
-Package epstopdf Info: Output file is already uptodate.
-<./figures/eps/metro-eps-converted-to.pdf, id=12, 686.565pt x 397.485pt>
-File: ./figures/eps/metro-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/eps/metro-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/eps/metro-eps-converted-to.pdf  used on inpu
-t line 44.
-(pdftex.def)             Requested size: 375.80544pt x 217.56815pt.
+Underfull \hbox (badness 10000) in paragraph at lines 45--57
 
-[2 <./figures/eps/metro-eps-converted-to.pdf>] (./efsm.aux) ) 
+ []
+
+[2]
+Package epstopdf Info: Source file: <./figures/eps/SystemEFSM.eps>
+(epstopdf)                    date: 2019-02-11 14:52:49
+(epstopdf)                    size: 279145 bytes
+(epstopdf)             Output file: <./figures/eps/SystemEFSM-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-02-11 14:53:02
+(epstopdf)                    size: 59442 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/eps/SystemEFSM-e
+ps-converted-to.pdf ./figures/eps/SystemEFSM.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/eps/SystemEFSM-eps-converted-to.pdf, id=17, 1616.0375pt x 993.7125pt
+>
+File: ./figures/eps/SystemEFSM-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/eps/SystemEFSM-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/eps/SystemEFSM-eps-converted-to.pdf  used on
+ input line 66.
+(pdftex.def)             Requested size: 375.80544pt x 231.08125pt.
+Package epstopdf Info: Source file: <./figures/eps/configurationEFSM.eps>
+(epstopdf)                    date: 2019-02-11 14:58:09
+(epstopdf)                    size: 150647 bytes
+(epstopdf)             Output file: <./figures/eps/configurationEFSM-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2019-02-11 14:57:46
+(epstopdf)                    size: 2488 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/eps/configuratio
+nEFSM-eps-converted-to.pdf ./figures/eps/configurationEFSM.eps>
+(epstopdf)             \includegraphics on input line 73.
+runsystem(repstopdf --outfile=./figures/eps/configurationEFSM-eps-converted-to.
+pdf ./figures/eps/configurationEFSM.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./figures/eps/configurationEFSM-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2019-02-11 14:58:24
+(epstopdf)                    size: 32853 bytes.
+<./figures/eps/configurationEFSM-eps-converted-to.pdf, id=18, 501.875pt x 933.4
+875pt>
+File: ./figures/eps/configurationEFSM-eps-converted-to.pdf Graphic file (type p
+df)
+<use ./figures/eps/configurationEFSM-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/eps/configurationEFSM-eps-converted-to.pdf  
+used on input line 73.
+(pdftex.def)             Requested size: 375.80544pt x 399.49597pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./figures/eps/SystemEFSM-eps-converted-to.pdf>] [4 <./figures/eps/configura
+tionEFSM-eps-converted-to.pdf>] (./efsm.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4406 strings out of 492649
- 60760 string characters out of 6129622
- 133515 words of memory out of 5000000
- 8220 multiletter control sequences out of 15000+600000
- 11789 words of font info for 46 fonts, out of 8000000 for 9000
+ 4417 strings out of 492649
+ 61127 string characters out of 6129622
+ 136532 words of memory out of 5000000
+ 8228 multiletter control sequences out of 15000+600000
+ 12434 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,32p,271b,278s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on efsm.pdf (2 pages, 105046 bytes).
+ 41i,13n,32p,271b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on efsm.pdf (4 pages, 185095 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>7</zoom_level>
+  <zoom_level>3</zoom_level>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>105</x>
-      <y>182</y>
-      <w>119</w>
-      <h>49</h>
+      <x>219</x>
+      <y>114</y>
+      <w>51</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>idle</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>518</x>
-      <y>322</y>
-      <w>105</w>
-      <h>49</h>
+      <x>396</x>
+      <y>174</y>
+      <w>45</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>warming up</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>217</x>
-      <y>182</y>
-      <w>196</w>
-      <h>28</h>
+      <x>267</x>
+      <y>114</y>
+      <w>84</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 after(2min)[inputList not empty]</panel_attributes>
@@ -38,10 +38,10 @@ after(2min)[inputList not empty]</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>210</y>
-      <w>105</w>
-      <h>126</h>
+      <x>423</x>
+      <y>126</y>
+      <w>48</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 [C &lt;= D-1]
@@ -51,10 +51,10 @@ after(2min)[inputList not empty]</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>399</x>
-      <y>168</y>
-      <w>133</w>
-      <h>63</h>
+      <x>345</x>
+      <y>108</y>
+      <w>57</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>C:= current temperature
 T:= current time
@@ -64,10 +64,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>525</x>
-      <y>196</y>
-      <w>63</w>
-      <h>21</h>
+      <x>399</x>
+      <y>120</y>
+      <w>27</w>
+      <h>9</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
@@ -75,10 +75,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
-      <y>126</y>
-      <w>462</w>
-      <h>77</h>
+      <x>234</x>
+      <y>90</y>
+      <w>198</w>
+      <h>33</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 
@@ -88,10 +88,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>70</x>
-      <y>189</y>
-      <w>14</w>
-      <h>14</h>
+      <x>204</x>
+      <y>117</y>
+      <w>6</w>
+      <h>6</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -99,10 +99,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>77</x>
-      <y>189</y>
-      <w>42</w>
-      <h>21</h>
+      <x>207</x>
+      <y>117</y>
+      <w>18</w>
+      <h>9</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
@@ -110,10 +110,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>70</x>
-      <y>273</y>
-      <w>14</w>
-      <h>14</h>
+      <x>204</x>
+      <y>153</y>
+      <w>6</w>
+      <h>6</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
@@ -121,10 +121,10 @@ D:= Desired temp</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>77</x>
-      <y>224</y>
-      <w>98</w>
-      <h>70</h>
+      <x>207</x>
+      <y>132</y>
+      <w>45</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 shut off
@@ -135,10 +135,10 @@ fan off</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>525</x>
-      <y>441</y>
-      <w>133</w>
-      <h>21</h>
+      <x>399</x>
+      <y>225</y>
+      <w>57</w>
+      <h>9</h>
     </coordinates>
     <panel_attributes>Tf := temp within furnace</panel_attributes>
     <additional_attributes/>
@@ -146,10 +146,10 @@ fan off</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>364</y>
-      <w>70</w>
-      <h>91</h>
+      <x>423</x>
+      <y>192</y>
+      <w>30</w>
+      <h>39</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 after(3min)</panel_attributes>
@@ -158,10 +158,10 @@ after(3min)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>581</x>
-      <y>455</y>
-      <w>21</w>
-      <h>77</h>
+      <x>423</x>
+      <y>231</y>
+      <w>9</w>
+      <h>33</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
@@ -169,10 +169,10 @@ after(3min)</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>574</x>
-      <y>518</y>
-      <w>28</w>
-      <h>28</h>
+      <x>420</x>
+      <y>258</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -180,10 +180,10 @@ after(3min)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>329</y>
-      <w>147</w>
-      <h>217</h>
+      <x>363</x>
+      <y>177</y>
+      <w>63</w>
+      <h>93</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 [Tf &lt; D+1]</panel_attributes>
@@ -192,22 +192,22 @@ after(3min)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>196</x>
-      <y>224</y>
-      <w>406</w>
-      <h>350</h>
+      <x>258</x>
+      <y>132</y>
+      <w>174</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-[Tf &gt;= D+1]/ fan on; furnace off; click sound</panel_attributes>
+[Tf = D+1]/ fan on; furnace off; click sound</panel_attributes>
     <additional_attributes>560.0;460.0;560.0;480.0;10.0;480.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>777</x>
-      <y>315</y>
-      <w>84</w>
-      <h>42</h>
+      <x>507</x>
+      <y>171</y>
+      <w>36</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>configuration
 symbol=substate</panel_attributes>
@@ -216,35 +216,35 @@ symbol=substate</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>609</x>
-      <y>322</y>
-      <w>182</w>
-      <h>28</h>
+      <x>438</x>
+      <y>174</y>
+      <w>75</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 interrupt / furnace off</panel_attributes>
-    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>812</x>
-      <y>119</y>
-      <w>147</w>
-      <h>210</h>
+      <x>498</x>
+      <y>87</y>
+      <w>90</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 cancel
 / prolonged beep sound</panel_attributes>
-    <additional_attributes>40.0;280.0;40.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>120.0;280.0;120.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>805</x>
-      <y>119</y>
-      <w>14</w>
-      <h>14</h>
+      <x>495</x>
+      <y>87</y>
+      <w>6</w>
+      <h>6</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -252,74 +252,74 @@ cancel
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>749</x>
-      <y>126</y>
-      <w>77</w>
-      <h>210</h>
+      <x>495</x>
+      <y>90</y>
+      <w>33</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-
 after
 1 min
 inactive</panel_attributes>
-    <additional_attributes>40.0;280.0;10.0;280.0;10.0;70.0;90.0;70.0;90.0;10.0</additional_attributes>
+    <additional_attributes>40.0;280.0;40.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>805</x>
-      <y>84</y>
-      <w>259</w>
-      <h>266</h>
+      <x>495</x>
+      <y>78</y>
+      <w>138</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 completed
 / double beep sound</panel_attributes>
-    <additional_attributes>80.0;360.0;220.0;360.0;220.0;10.0;10.0;10.0;10.0;50.0</additional_attributes>
+    <additional_attributes>160.0;340.0;300.0;340.0;300.0;10.0;10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>119</x>
-      <y>119</y>
-      <w>700</w>
-      <h>77</h>
+      <x>225</x>
+      <y>87</y>
+      <w>276</w>
+      <h>33</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>980.0;10.0;10.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>900.0;10.0;10.0;10.0;10.0;90.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>0</x>
-      <y>0</y>
-      <w>1099</w>
-      <h>665</h>
+      <x>174</x>
+      <y>36</y>
+      <w>471</w>
+      <h>285</h>
     </coordinates>
     <panel_attributes>Room Temperature Control System</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>574</x>
-      <y>189</y>
-      <w>28</w>
-      <h>28</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>175</x>
-      <y>224</y>
-      <w>651</w>
-      <h>392</h>
+      <x>249</x>
+      <y>132</y>
+      <w>279</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 setup </panel_attributes>
     <additional_attributes>10.0;10.0;10.0;540.0;910.0;540.0;910.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>420</x>
+      <y>117</y>
+      <w>12</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>type=decision
+layer=1</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
