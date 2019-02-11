@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>5</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>435</x>
-      <y>110</y>
-      <w>10</w>
-      <h>10</h>
+      <x>328</x>
+      <y>80</y>
+      <w>16</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>435</x>
-      <y>115</y>
-      <w>15</w>
-      <h>40</h>
+      <x>328</x>
+      <y>88</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>420</x>
-      <y>145</y>
-      <w>45</w>
-      <h>20</h>
+      <x>304</x>
+      <y>136</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>input</panel_attributes>
     <additional_attributes/>
@@ -37,10 +37,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>330</x>
-      <y>150</y>
-      <w>130</w>
-      <h>355</h>
+      <x>160</x>
+      <y>144</y>
+      <w>208</w>
+      <h>568</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 repeat
@@ -67,10 +67,10 @@ repeat
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>390</x>
-      <y>180</y>
-      <w>110</w>
-      <h>45</h>
+      <x>256</x>
+      <y>192</y>
+      <w>176</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>triplet:= {
 time-from, 
@@ -82,10 +82,10 @@ desired-temp
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>435</x>
+      <x>328</x>
       <y>160</y>
-      <w>15</w>
-      <h>30</h>
+      <w>24</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -93,10 +93,10 @@ desired-temp
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>220</y>
-      <w>15</w>
-      <h>40</h>
+      <x>336</x>
+      <y>256</y>
+      <w>24</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -104,10 +104,10 @@ desired-temp
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>435</x>
-      <y>250</y>
-      <w>20</w>
-      <h>20</h>
+      <x>328</x>
+      <y>304</y>
+      <w>32</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -115,24 +115,24 @@ desired-temp
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>355</x>
-      <y>250</y>
-      <w>90</w>
-      <h>45</h>
+      <x>200</x>
+      <y>304</y>
+      <w>144</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 register
 [triplet does not exist]
-/add to list</panel_attributes>
+</panel_attributes>
     <additional_attributes>160.0;20.0;10.0;20.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>340</x>
-      <y>285</y>
-      <w>45</w>
-      <h>20</h>
+      <x>176</x>
+      <y>360</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>add</panel_attributes>
     <additional_attributes/>
@@ -140,10 +140,10 @@ register
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>505</x>
-      <y>285</y>
-      <w>45</w>
-      <h>20</h>
+      <x>440</x>
+      <y>360</y>
+      <w>72</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>override</panel_attributes>
     <additional_attributes/>
@@ -151,10 +151,10 @@ register
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>325</x>
-      <y>60</y>
-      <w>230</w>
-      <h>365</h>
+      <x>152</x>
+      <y>0</y>
+      <w>368</w>
+      <h>584</h>
     </coordinates>
     <panel_attributes>Configuration 
 --
@@ -170,24 +170,23 @@ valign=top
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>250</y>
-      <w>85</w>
-      <h>45</h>
+      <x>352</x>
+      <y>304</y>
+      <w>136</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 register
-[triplet exists]
-/ override inside list</panel_attributes>
+[triplet exists]</panel_attributes>
     <additional_attributes>10.0;20.0;150.0;20.0;150.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>445</x>
-      <y>320</y>
-      <w>10</w>
-      <h>10</h>
+      <x>344</x>
+      <y>416</y>
+      <w>16</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -195,10 +194,10 @@ register
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>300</y>
-      <w>85</w>
-      <h>35</h>
+      <x>352</x>
+      <y>384</y>
+      <w>136</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>150.0;10.0;150.0;50.0;10.0;50.0</additional_attributes>
@@ -206,10 +205,10 @@ register
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>355</x>
-      <y>300</y>
-      <w>100</w>
-      <h>35</h>
+      <x>200</x>
+      <y>384</y>
+      <w>160</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 </panel_attributes>
