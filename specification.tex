@@ -30,16 +30,16 @@ Ethel Narra Pangan (40061530)}
 \noindent $V: \{C, T, D, Tf\}$\\
 \noindent $\Lambda$: Transition specifications\\
 \indent 1. $\rightarrow idle$\\
-\indent 2. $idle \xrightarrow {\text { shut off/ (fan off ; furnace off)}} off$\\
+\indent 2. $idle \xrightarrow {\text { shut off/ (fan off; furnace off)}} off$\\
 \indent 3. $idle \xrightarrow {\text { after(2min)[C $\geq$ D]}} idle$\\
-\indent 4. $idle \xrightarrow {\text { after(2min)[C $\leq$ D-1] / (fan off ; furnace on)}} warm~up$\\
-\indent 5. $idle \xrightarrow {\text {setup}} configuration$\\
+\indent 4. $idle \xrightarrow {\text { after(2min)[C $\leq$ D-1] / (fan off; furnace on)}} warm~up$\\
+\indent 5. $idle \xrightarrow {\text {setup}/(beep sound ; led light switch on)} configuration$\\
 \indent 6. $warm~up \xrightarrow {\text { after(3min)[T.F $<$ D+1] }} warm~up$\\
-\indent 7. $warm~up \xrightarrow {\text { after(3min)[T.F $\geq$ D+1] }} idle$\\
+\indent 7. $warm~up \xrightarrow {\text { after(3min)[T.F $\geq$ D+1]/(fan on; furnace off; click sound) }} idle$\\
 \indent 8. $warm~up \xrightarrow {\text { interrupt/furnace off }} configuration$\\
-\indent 9. $configuration \xrightarrow {\text { after 1 min inactive }} idle$\\
-\indent 10. $configuration \xrightarrow {\text { cancel/prolonged beep sound }} idle$\\
-\indent 11. $configuration \xrightarrow {\text { completed/double beep sound }} idle$\\
+\indent 9. $configuration \xrightarrow {\text { after 1 min inactive / led light switch off }} idle$\\
+\indent 10. $configuration \xrightarrow {\text { cancel/(prolonged beep sound;led light switch off) }} idle$\\
+\indent 11. $configuration \xrightarrow {\text { completed/(double beep sound; led light switch off) }} idle$\\
 \noindent The UML state diagram is shown in Figure~\ref{fig:system-fig}.\\\\
 
 \noindent The EFSM of the configuration is the tuple $S = (Q, \Sigma_1, \Sigma_2, q_0, V, \Lambda)$, where\\
