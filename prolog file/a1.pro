@@ -43,22 +43,22 @@ superstate(configuration, override).
 
 %%Transitions within the top-level STRUCTURE IS TRANSITION(STATE1, STATE2, EVENT, GUARD, ACTION).
 
-transition(idle,idle,'every two minutes','current is greater or equal than desired temperature', null).
-transition(idle, 'warming up','every two minutes', 'current is less or equal desired temperature minus 1', 'furnace on; fan off' ).
-transition(idle, exit, 'shut off', null, null).
-transition(idle, configuration, 'setup', null, null).
+transition(idle,idle,'every two minutes','current is greater or equal than desired temperature; input-list is not empty', null).
+transition(idle, 'warming up','every two minutes', 'current is less or equal desired temperature minus 1; input-list is not empty', 'furnace on; fan off' ).
+transition(idle, exit, 'shut off', null, 'furnice off; fan off').
+transition(idle, configuration, 'setup', null, 'beep sound; led light on').
 
 transition('warming up', 'warming up', 'every three minutes', 'furnace temperature less than desired temperature plus 1', null).
 transition('warming up', idle, null, 'furnace temperature equal to desired temp plus 1', 'fan on; furnace off; click sound produced').
-transition('warming up', configuration, interrupt, null, 'furnace off').
+transition('warming up', configuration, interrupt, null, 'furnace off; beep sound; led light on').
 
-transition(configuration, idle, cancel, null, 'prolonged beep sound').
-transition(configuration, idle, 'after 1 minute inactive', null, null).
-transition(configuration, idle, complete, null, 'double beep sound').
+transition(configuration, idle, cancel, null, 'prolonged beep sound; led light off').
+transition(configuration, idle, 'after 1 minute inactive', null, 'led light off').
+transition(configuration, idle, complete, null, 'double beep sound; led light off').
 
 %%Transitions within configuration state
-transition(input, add, register, 'triplet does not exist in list', null).
-transition(input, override, register, 'triplet does exist in list', null).
+transition(input, add, register, 'triplet does not exist in input-list', null).
+transition(input, override, register, 'triplet exists in input-list', null).
 transition(add, input, repeat, null, null).
 transition(override, input, repeat, null, null).
 
