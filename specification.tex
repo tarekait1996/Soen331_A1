@@ -23,14 +23,14 @@ Ethel Narra Pangan (40061530)}
 \section{Room temperature control formal specification}
 
 \noindent The EFSM of the room temperature control is the tuple $S = (Q, \Sigma_1, \Sigma_2, q_0, V, \Lambda)$, where
-\noindent $Q = \{idle, warm up, configuration\}$\\
+\noindent $Q = \{idle, warming up, configuration, exit\}$\\
 \noindent $\Sigma_1 = \{shut off, setup, interrupt, after(3min), after(2min), after~1~min~inactive, cancel, completed\}$\\
 \noindent $\Sigma_2 = \{fan~on, fan~off, furnace~on, furnace~off, prolonged~beep~sound, double~beep~sound, click~sound\}$\\
 \noindent $q_0: idle$\\
 \noindent $V: \{C, T, D, Tf, input~list\}$\\
 \noindent $\Lambda$: Transition specifications\\
 \indent 1. $\rightarrow idle$\\
-\indent 2. $idle \xrightarrow {\text { shut off/ (fan off; furnace off)}} off$\\
+\indent 2. $idle \xrightarrow {\text { shut off/ (fan off; furnace off)}} exit$\\
 \indent 3. $idle \xrightarrow {\text { after(2min)[input list not empty; C $\geq$ D]}} idle$\\
 \indent 4. $idle \xrightarrow {\text { after(2min)[input list not empty; C $\leq$ D-1] / (fan off; furnace on)}} warming~up$\\
 \indent 5. $idle \xrightarrow {\text {setup}/(beep~sound;~led~light~switch~on)} configuration$\\
